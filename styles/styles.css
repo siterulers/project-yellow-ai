@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Nunito-Regular";
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("../assets/fonts/Nunito-Regular.ttf");
+}
+
+body {
+    background: url("../assets/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.login-bg {
+    margin-bottom: 280px;
+}
+.login-wrapper {
+    width: 867px;
+    margin: 50px auto;
+    height: 592px;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 40px rgba(24, 24, 24, 0.1);
+    border-radius: 16px;
+    padding: 38px 25px 0 45px;
+    display: flex;
+    justify-content: space-between;
+}
+#login-form-wrapper {
+    margin-top: 63px;
+    width: 370px;
+}
+#login-form {
+    margin-top: 30px;
+}
+h3 {
+    font-size: 34px;
+}
+.form-control {
+    margin-bottom: 20px;
+}
+.input-boxes {
+    width: 376px;
+    border-radius: 8px;
+    border: 1px solid #dbdada;
+    height: 45px;
+    padding: 0 0 0 12px;
+}
+#login-btn {
+    margin-top: 10px;
+}
+button {
+    width: 376px;
+    height: 45px;
+    background-color: #F37164;
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    font-size: 22px;
+}
+#forgot-pass {
+    float: right;
+}
+#forgot-pass a {
+    color: #959595;
+    font-size: 14px;
+    text-decoration: none;
+}
+#social-icons {
+    margin-top: 36px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+#social-icons img {
+    margin-right: 14px;
+}
