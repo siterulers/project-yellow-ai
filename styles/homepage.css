@@ -1,0 +1,31 @@
+/*--- Homepage ----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Nunito-Regular";
+}
+
+body {
+    background-image: url('../assets/homepage/homepage-bg.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+.homepage-bg {
+    width: 1096px;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+#form-welcome-msg {
+    width: 740px;
+}
+#form-illustration {
+    background-image: url("../assets/homepage/illlustrations-home.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 507px;
+    width: 350px;
+}
